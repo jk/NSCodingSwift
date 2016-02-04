@@ -15,7 +15,30 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+
+//        let a: [MyProtocol] = [DummyClass(), DummyClass()]
+//        
+//        let c = MyClass(myCollection: a)
+//        for dummy in c.myCollection {
+//            print(dummy.myDescription)
+//        }
+//        
+//        NSKeyedArchiver.archiveRootObject(c, toFile: MyClass.ArchiveURL.path!)
+//        
+//        let d = NSKeyedUnarchiver.unarchiveObjectWithFile(MyClass.ArchiveURL.path!) as! MyClass
+//        for dummy in d.myCollection {
+//            print(dummy.myDescription)
+//        }
+        
+        let a = MyEnum.None
+        let b = MyEnumClass(myEnum: a)
+        print("Original \(b.myEnum.rawValue)")
+        
+        NSKeyedArchiver.archiveRootObject(b, toFile: MyEnumClass.ArchiveURL.path!)
+        
+        let c = NSKeyedUnarchiver.unarchiveObjectWithFile(MyEnumClass.ArchiveURL.path!) as! MyEnumClass
+        print("Rescued \(c.myEnum.rawValue)")
+        
         return true
     }
 

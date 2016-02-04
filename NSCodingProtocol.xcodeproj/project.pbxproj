@@ -12,6 +12,12 @@
 		43B005C31C5BBB53000F5615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B005C11C5BBB53000F5615 /* Main.storyboard */; };
 		43B005C51C5BBB53000F5615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B005C41C5BBB53000F5615 /* Assets.xcassets */; };
 		43B005C81C5BBB53000F5615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43B005C61C5BBB53000F5615 /* LaunchScreen.storyboard */; };
+		43B005D01C5BBB61000F5615 /* DummyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B005CF1C5BBB61000F5615 /* DummyClass.swift */; };
+		43B005D21C5BBB7B000F5615 /* MyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B005D11C5BBB7B000F5615 /* MyProtocol.swift */; };
+		43B005D41C5BBB90000F5615 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B005D31C5BBB90000F5615 /* MyClass.swift */; };
+		43D729D01C5FA8EC000F5615 /* NSCoder+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D729CF1C5FA8EC000F5615 /* NSCoder+Swift.swift */; };
+		43D729D21C5FA904000F5615 /* MyEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D729D11C5FA904000F5615 /* MyEnum.swift */; };
+		43D729D41C5FA955000F5615 /* MyEnumClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D729D31C5FA955000F5615 /* MyEnumClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		43B005C41C5BBB53000F5615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		43B005C71C5BBB53000F5615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43B005C91C5BBB53000F5615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43B005CF1C5BBB61000F5615 /* DummyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DummyClass.swift; sourceTree = "<group>"; };
+		43B005D11C5BBB7B000F5615 /* MyProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProtocol.swift; sourceTree = "<group>"; };
+		43B005D31C5BBB90000F5615 /* MyClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
+		43D729CF1C5FA8EC000F5615 /* NSCoder+Swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSCoder+Swift.swift"; sourceTree = "<group>"; };
+		43D729D11C5FA904000F5615 /* MyEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyEnum.swift; sourceTree = "<group>"; };
+		43D729D31C5FA955000F5615 /* MyEnumClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyEnumClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				43B005C41C5BBB53000F5615 /* Assets.xcassets */,
 				43B005C61C5BBB53000F5615 /* LaunchScreen.storyboard */,
 				43B005C91C5BBB53000F5615 /* Info.plist */,
+				43B005CF1C5BBB61000F5615 /* DummyClass.swift */,
+				43B005D11C5BBB7B000F5615 /* MyProtocol.swift */,
+				43B005D31C5BBB90000F5615 /* MyClass.swift */,
+				43D729CF1C5FA8EC000F5615 /* NSCoder+Swift.swift */,
+				43D729D11C5FA904000F5615 /* MyEnum.swift */,
+				43D729D31C5FA955000F5615 /* MyEnumClass.swift */,
 			);
 			path = NSCodingProtocol;
 			sourceTree = "<group>";
@@ -135,8 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43D729D01C5FA8EC000F5615 /* NSCoder+Swift.swift in Sources */,
+				43D729D21C5FA904000F5615 /* MyEnum.swift in Sources */,
 				43B005C01C5BBB53000F5615 /* ViewController.swift in Sources */,
+				43B005D01C5BBB61000F5615 /* DummyClass.swift in Sources */,
+				43B005D41C5BBB90000F5615 /* MyClass.swift in Sources */,
+				43D729D41C5FA955000F5615 /* MyEnumClass.swift in Sources */,
 				43B005BE1C5BBB53000F5615 /* AppDelegate.swift in Sources */,
+				43B005D21C5BBB7B000F5615 /* MyProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +308,7 @@
 				43B005CE1C5BBB53000F5615 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
